@@ -1,0 +1,99 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+Ans:Data structures provide a means to manage large amounts of data efficiently for uses such as large databases and internet indexing services. Usually, efficient data structures are key to designing efficient algorithms.
+What are the various operations that can be performed on different Data Structures?
+Ans:creation,insertion,deletion,searching,sorting,traversing,merging,appending & updating.
+List out the areas in which data structures are applied extensively?
+Ans:
+    Compiler Design.
+    DBMS.
+    Graphics.
+    Simulation.
+    Numerical Analysis.
+    Artificial Intelligence.
+what is an Array?
+Ans: Arrays a kind of data structure that can store a fixed-size sequential collection of elements of the same type.
+what is the difference between the Array and ArrayList?
+Ans:Array is a fixed length data structure whereas ArrayList is a variable length Collection class. We cannot change length of array once created in Java but ArrayList can be changed.
+what is LinkedList?
+Ans:a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
+How is an Array different from Linked List?
+Ans:An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers. Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists.
+what is queue?
+Ans:  A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out
+what is stack?
+Ans:Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out)
+what is FIFO and LIFO?
+Ans: First In First Out and Last In First Out
+what is the order of complexity?
+Ans:an algorithm has an asymptotic computational complexity.the smaller the order of complexity of the program's underlying algorithm, the faster it will run and the better it will scale as the input gets larger.
+what is the best case to search an element from an array?
+Ans: the element is in 1st index.
+what is the worst case to search an element from an array?
+Ans: the element is in the last index.
+what is tree in data structure?
+Ans:A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
+what is graph in data structure?
+Ans:A Graph is a non-linear data structure consisting of nodes and edges.
+what is the difference between the HashTable and HashMap?
+Ans:HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization code whereas Hashtable is synchronized. ... HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans: RDBMS->Array
+NDM->Graph
+HDm->Tree
+How HashMap works in java?
+Ans: HashMap in Java works on hashing principles. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key. In hashing, hash functions are used to link key and value in HashMap. Objects are stored by calling put(key, value) method of HashMap and retrieved by calling get(key) method. When we call put method, the hashcode() method of the key object is called so that the hash function of the map can find a bucket location to store value object, which is actually an index of the internal array, known as the table.
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans: Its an error. It happens when someone tries to access 11 th index of array having 10 indexes
+What are the different ways of copying an array into another array?
+Ans:
+        Using variable assignment. This method has side effects as changes to the element of an array reflects on both the places. To prevent this side effect following are the better ways to copy the array elements.
+
+        Create a new array of the same length and copy each element.
+
+        Use the clone method of the array. Clone methods create a new array of the same size.
+
+        Use System.arraycopy() method. arraycopy can be used to copy a subset of an array.
+What is difference between an array and a linked list?
+Ans: An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers. Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists.
+What is DFS and BFS?
+Ans:BFS stands for Breadth First Search. DFS stands for Depth First Search. 2. BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search) uses Stack data structure.
+What is Recursion?
+Ans:Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function, then it is called a recursive call of the function
+What are linear and non linear data Structures?
+Ans:In a linear data structure, data elements are arranged in a linear order where each and every elements are attached to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically manner
+What is Big-(O)-notation?
+Ans:Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+Outline different kind of sorting algorithm with time complexity?
+
+Name 	Average 	Worst 	Memory
+Bubble sort 	O(n2) 	O(n2) 	O(1)
+Selection sort 	O(n2) 	O(n2) 	O(1)
+Insertion sort 	O(n2) 	O(n2) 	O(1)
+Merge sort 	O(n log n) 	O(n log n) 	O(n)
+Quicksort 	O(n log n) 	O(n2) 	O(1)
+Heapsort 	O(n log n) 	O(n log n) 	O(1)
+
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  array    O(1)
+  stack    O(n)
+  queue    O(n)
+  linked list   O(n)
+  b)In terms of Inserting element.
+  array    O(n)
+  stack    O(1)
+  queue    O(1)
+  linked list   O(1)
+  c)In terms of Searching element.
+    array    O(n)
+    stack    O(n)
+    queue    O(n)
+    linked list   O(n)
+  d)In terms of Removing element.
+    array    O(n)
+    stack    O(1)
+    queue    O(1)
+    linked list   O(1)
